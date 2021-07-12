@@ -1,0 +1,37 @@
+<span id ="dots"></span> <span id ="mostrar"> //Condicion para comenzar a abarcar texto oculto
+
+
+<button type="button" id="read" onclick="read()">Leer mas</button> //Condicion para concluir el abarcado de texto oculto
+ 
+
+
+<script src="js/desplegar.js"></script> //Esto va al final del documento html
+
+
+
+
+
+
+//Codigo del documento para que funcione el boton de "leer más"
+
+    var i=O;
+        function read(){
+            if(!i) {
+                document.getElementById("mostrar").style.
+                display="inline";
+                 document.getElementById("dots").style.
+                display="none";
+                  document.getElementById("read").innerHTML="Ocultar";
+                i=1;
+            }
+            
+            else {
+                   document.getElementById("mostrar").style.
+                display="none";
+                 document.getElementById("dots").style.
+                display="inline";
+                  document.getElementById("read").innerHTML="Leer mas";
+                i=0;
+            }
+        }
+    

@@ -1,0 +1,130 @@
+.form-registro {
+    width: 97%;
+    background: #fff;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: cursive;
+    color: #fff;
+    box-shadow: 7px 13px 37px #000;
+    margin-bottom: 10px;
+}
+
+.input__reservaciones {
+    width: 100%;
+    background: #24303c;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: cursive;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.seleccion__reservaciones {
+    color: #fff;
+}
+
+
+.terminos {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.terminos a {
+    color: #fff;
+   
+}
+
+.tittle__reservacion {
+    text-align: center;
+    margin-bottom: 15px;
+  
+}
+
+.terminos a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.boton {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+@media screen and (min-width:768px) {
+    
+    .input__reservaciones {
+        width: 250px;
+    }
+    
+    .form-registro {
+        overflow: hidden;
+    }
+    
+    .columna--a {
+        margin-left: 70px;
+        float: left;
+        width: 50px;
+    }
+    
+    .columna--b {
+        margin-right: 270px;
+        float: right;
+        width: 50px;
+    }
+    
+    .tittle__reservacion {
+   font-size: 1em;
+    margin-bottom: 20px;
+}
+
+    .terminos {
+        float: left;
+      text-align: center;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+        
+    
+     .columna--a {
+        margin-left:150px;
+        float: left;
+        width: 50px;
+        
+    }
+    
+        .tittle__reservacion {
+   font-size: 1.5em;
+        margin-bottom: 20px;
+}
+    
+    .columna--b {
+        margin-right: 350px;
+        float: right;
+        width: 50px;
+
+    }
+    
+    .form-registro {
+        max-width: 2000px;
+    }
+    
+     .terminos {
+       margin-left: 190px;
+         display: none;
+    }
+    
+}
+
